@@ -1,5 +1,5 @@
 'use strict'
-var VTFeature = require('vector-tile').VectorTileFeature
+var VTFeature = require('@mapbox/vector-tile').VectorTileFeature
 var Point = require('point-geometry')
 
 module.exports = CachedVectorTileFeature
